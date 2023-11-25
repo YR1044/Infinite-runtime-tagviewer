@@ -1,22 +1,27 @@
-# Infinite-runtime-tagviewer
+# Infinite-runtime-tagviewer  
 
 # Download
 
 In-development build:
 
-[![Download latest build](https://github.com/Gamergotten/Infinite-runtime-tagviewer/actions/workflows/dotnet.yml/badge.svg)](https://nightly.link/Gamergotten/Infinite-runtime-tagviewer/workflows/dotnet/master/Binaries.zip) <- (click to download)
+[![Download latest build](https://github.com/Gamergotten/Infinite-runtime-tagviewer/actions/workflows/dotnet.yml/badge.svg)](https://nightly.link/Gamergotten/Infinite-runtime-tagviewer/workflows/dotnet/master/IRTV.zip) <- (click to download)
+
+Incase the above link has expired, a permanent release is available [here](https://github.com/Gamergotten/Infinite-runtime-tagviewer/releases/tag/Season5)
+
+[.Net 5.0 Download](https://download.visualstudio.microsoft.com/download/pr/1055020b-9c1a-4fd1-bb3e-64de0de2ee65/fbb705491eaea5fd9137de9fd230bbba/dotnet-sdk-5.0.405-win-x64.exe)
 
 
 # Read me
 Welcome to the very first 'Epic Runtime Tag Editing Tool' for Halo Infinite. 
 - If you want to read some useful documentations and check out some guides you can do this here (when its ready and finalized): https://www.halocustoms.com/modding-wiki/haloinfinite/
-
-**Issues/Requests**
-- If you experience any issues, want an unmapped value mapped, or have any (reasonable) requests, please message xxZxx#0001 on discord.
+- If you are experienceig any bugs, issues, or have any features to suggest, please submit a ticket in the issues section.
 
 **Currently**
-- We now support all tags (Well. Kinda.) 
-- If they don't load then there's an issue with the value mappings). Please shoot me a message on where ever and I'll look into it.
+- We now support all tags. 
+- There are a small amount of value types that haven't been mapped as of yet.
+- You can select "Dump Tag Structs" in the tools menu if the tag values look wrong.
+
+# Credits
 
 **Thanks To the following people**
 - Lord Zedd and Exhibit for their amazing work on dumping the tag definitions, which was a massive help to understand how the tag definitions work.
@@ -35,8 +40,4 @@ Welcome to the very first 'Epic Runtime Tag Editing Tool' for Halo Infinite.
 
 - Shoutouts to Sopitive for his generous PR requests, and continuing to add Quality of life improvements when I haven't gotten around to doing so.
 
-- Thanks to TempAccountNull for his constant help with updating the tool, while I haven't been working on the project. He'll take over from now on.
-
-**The Current binaries**
-
-https://nightly.link/Gamergotten/Infinite-runtime-tagviewer/workflows/dotnet/master/Binaries.zip
+- Thanks to TempAccountNull for their contributions to the project.
